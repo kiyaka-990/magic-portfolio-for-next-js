@@ -166,8 +166,8 @@ const blog = {
     // All posts will be listed on the /blog route
 }
 
-const work = {
-    label: 'Work',
+const services = {
+    label: 'services',
     title: 'My projects',
     description: `Design and dev projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
