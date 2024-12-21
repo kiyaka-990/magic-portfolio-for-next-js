@@ -166,7 +166,7 @@ const blog = {
     // All posts will be listed on the /blog route
 }
 
-const services = {
+const work = {
     label: 'services',
     title: 'My projects',
     description: `Design and dev projects by ${person.name}`
