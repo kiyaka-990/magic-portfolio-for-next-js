@@ -68,7 +68,7 @@ export const Header = () => {
     }
 
     const t = useTranslations();
-    const { person, home, about, blog, work, gallery } = renderContent(t);
+    const { person, home, about, blog, services, projects } = renderContent(t);
 
     return (
         <>
@@ -117,12 +117,12 @@ export const Header = () => {
                                     <Flex paddingX="2" hide="s">{about.label}</Flex>
                                 </ToggleButton>
                             )}
-                            { routes['/work'] && (
+                            { routes['/services'] && (
                                 <ToggleButton
                                     prefixIcon="grid"
-                                    href={`/${params?.locale}/work`}
-                                    selected={pathname.startsWith('/work')}>
-                                    <Flex paddingX="2" hide="s">{work.label}</Flex>
+                                    href={`/${params?.locale}/services`}
+                                    selected={pathname.startsWith('/services')}>
+                                    <Flex paddingX="2" hide="s">{services.label}</Flex>
                                 </ToggleButton>
                             )}
                             { routes['/blog'] && (
@@ -133,12 +133,12 @@ export const Header = () => {
                                     <Flex paddingX="2" hide="s">{blog.label}</Flex>
                                 </ToggleButton>
                             )}
-                            { routes['/gallery'] && (
+                            { routes['/projects'] && (
                                 <ToggleButton
                                     prefixIcon="gallery"
-                                    href={`/${params?.locale}/gallery`}
-                                    selected={pathname.startsWith('/gallery')}>
-                                    <Flex paddingX="2" hide="s">{gallery.label}</Flex>
+                                    href={`/${params?.locale}/projects`}
+                                    selected={pathname.startsWith('/projects')}>
+                                    <Flex paddingX="2" hide="s">{projects.label}</Flex>
                                 </ToggleButton>
                             )}
                         </Flex>
