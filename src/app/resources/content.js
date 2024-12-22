@@ -7,7 +7,7 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Bringing people Together',
-    avatar:    '/images/logo.jpg',
+    avatar:    '/images/logo.JPG',
     location:  'Africa/Nairobi',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Kiswahili,french']  // optional: Leave the array empty if you don't want to display languages
 }
@@ -15,7 +15,7 @@ const person = {
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>Stay up to date with our latest news & insights.</>
 }
 
 const social = [
