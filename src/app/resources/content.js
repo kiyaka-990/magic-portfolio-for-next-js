@@ -7,7 +7,7 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Bringing people Together',
-    avatar:    '/images/cover.png',
+    avatar:    '/images/logo.jpg',
     location:  'Africa/Nairobi',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Kiswahili,french']  // optional: Leave the array empty if you don't want to display languages
 }
@@ -69,7 +69,8 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>For over 100 years, we have transformed the UK’s infrastructure. Now we are transforming it for the next 100 years.Our products and services are ever-evolving, 
+    but our mission is the same as it’s always been: enhancing life and protecting our shared future.</>
     },
     work: {
         display: true, // set to false to hide this section
