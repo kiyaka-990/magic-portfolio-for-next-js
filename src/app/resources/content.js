@@ -7,7 +7,7 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Bringing people Together',
-    avatar:    '/images/avatar.jpg',
+    avatar:    '/images/cover.png',
     location:  'Africa/Nairobi',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Kiswahili,french']  // optional: Leave the array empty if you don't want to display languages
 }
@@ -46,9 +46,9 @@ const social = [
 const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    description: `Portfolio website showcasing our work as a ${person.role}`,
+    headline: <>Bringing people Together</>,
+    subline: <>Welcome to <InlineCode>Columbia Developers</InlineCode>, where we<br/>find bold solutions to help the planet flourish.</>
 }
 
 const about = {
@@ -76,7 +76,7 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
+                company: 'Columbia Developers',
                 timeframe: '2022 - Present',
                 role: 'Senior Design Engineer',
                 achievements: [
